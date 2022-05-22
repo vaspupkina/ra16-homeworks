@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 function ClothingInformation(props)
 {
-    const {item, Pasha} = props;
+    const {item} = props;
     return (
     <div className="main-content">
         <h2>{item.brand}</h2>
